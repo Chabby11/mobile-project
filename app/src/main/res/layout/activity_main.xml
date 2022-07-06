@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/design_default_color_on_primary"
+        android:gravity="center"
+        android:text="Patient Prescription"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <EditText
+        android:id="@+id/patient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="patient_name"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/patient_second_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="patient_second_name"
+        android:inputType="text"
+        tools:ignore="InvalidId"/>
+
+    <EditText
+        android:id="@+id/patient_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="patient_last_name"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="address"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="phone_number"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="age"
+        android:inputType="text"
+        tools:ignore="InvalidId" />
+
+    <RadioButton
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="female"
+        android:inputType="text"
+        android:text="female"
+        tools:ignore="InvalidId"/>
+
+    <RadioButton
+        android:id="@+id/gender2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="male"
+        android:text="male"
+        tools:ignore="InvalidId"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textSize="28dp"/>
+
+</LinearLayout>
